@@ -1,0 +1,22 @@
+﻿{
+  "defaultAssembly": "DependencyInjectionVBPart02",
+  "components": [
+    {
+      "type": "DependencyInjectionVBPart02.Child, DependencyInjectionVBPart02",
+      "services": [
+        {
+          "type": "DependencyInjectionVBPart02.Interfaces.IChild, DependencyInjectionVBPart02.Interfaces"
+        }
+      ],
+      "injectProperties": true
+    },
+    {
+      "type": "DependencyInjectionVBPart02.OrangeJuice.DrinkService, DependencyInjectionVBPart02.OrangeJuice",
+      "services": [
+        {
+          "type": "DependencyInjectionVBPart02.Interfaces.IDrinkService, DependencyInjectionVBPart02.Interfaces"
+        }
+      ]
+    }
+  ]
+}
